@@ -1,0 +1,52 @@
+{
+  "name": "owlguard-mcp",
+  "version": "0.1.0",
+  "description": "枭卫（OwlGuard）MCP — 开源反诈智能体MCP服务，通过话术状态机技术实时检测10类电信诈骗模式",
+  "main": "index.js",
+  "bin": {
+    "owlguard-mcp": "./bin/owlguard-mcp.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js",
+    "prepublishOnly": "node build.js"
+  },
+  "files": [
+    "bin/",
+    "install.js",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "anti-fraud",
+    "scam-detection",
+    "telecom-fraud",
+    "owlguard",
+    "ai-safety",
+    "model-context-protocol"
+  ],
+  "author": "Yitu-Loong",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yitu-Loong/OwlGuard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yitu-Loong/OwlGuard/issues"
+  },
+  "homepage": "https://github.com/Yitu-Loong/OwlGuard#readme",
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}
